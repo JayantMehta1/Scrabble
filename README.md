@@ -2,7 +2,7 @@
 
 ## To Run Valett
 
-Valett is a program to give weighted scores to letters for word games like scrabble
+Valett is a program to give weighted scores to letters for word games like scrabble adapted from https://github.com/jmlewis/valett
 
 install coffeescript:
 ```
