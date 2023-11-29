@@ -10,7 +10,7 @@ valett = require '../lib/valett'
 valett.init words, letters
 
 weights = {frequency: .34, frequencyByLength: .33, entropy: .33}
-frequencyByLengthWeights = [0, 50, 25, 5, 2.5, 1.25, 0.625, 25, 12.5, 2.5, 1.25, 0, 0, 0, 0]
+frequencyByLengthWeights = [0, 0, 25, 5, 2.5, 1.25, 0.625, 25, 12.5, 2.5, 1.25, 0, 0, 0, 0]
 entropyWeights = [.5, .5]
 
 valett.analyze 1000, weights, frequencyByLengthWeights, entropyWeights
